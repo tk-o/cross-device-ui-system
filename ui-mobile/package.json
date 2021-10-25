@@ -1,0 +1,10 @@
+{
+  "name": "cross-device-ui-system.ui-mobile",
+  "packageManager": "yarn@3.0.2",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react": "^17.0.2"
+  }
+}
