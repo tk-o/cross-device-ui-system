@@ -1,10 +1,14 @@
 {
   "name": "cross-device-ui-system.ui-mobile",
   "packageManager": "yarn@3.0.2",
+  "source": "src/index.ts",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.modern.module.js",
+  "types": "dist/index.d.ts",
   "peerDependencies": {
     "react-native": "*"
   },
   "devDependencies": {
-    "react": "^17.0.2"
+    "@types/react-native": "^0.66.0"
   }
 }
